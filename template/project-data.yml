@@ -1,0 +1,8 @@
+default:
+  appName: demo
+  groupId: com.example
+  artifactId: demo
+  version: 1.0.0-SNAPSHOT
+  basePackage: com.example.demo
+  baseDir: com/example/demo
+  author: admin

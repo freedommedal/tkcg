@@ -1,0 +1,20 @@
+#!/bin/bash
+
+LP=`pwd`
+
+CLASSPATH="."
+
+cd `dirname $0`
+DEPLOY_DIR=`pwd`
+
+for i in $DEPLOY_DIR/lib/*.jar
+do
+    CLASSPATH="$CLASSPATH":$i
+done
+
+APP_MAIN=com.sgota.tool.tkcg.CommandLineMain
+
+cd $LP
+
+java -cp "$CLASSPATH" $APP_MAIN $*
+

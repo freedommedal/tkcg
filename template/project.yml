@@ -1,0 +1,6 @@
+templateDirectory: ../template/default_project
+outDirectory: ../dest/project
+providerConfig:
+  id: yaml
+  dataPath: project-data.yml
+keys:
