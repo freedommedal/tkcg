@@ -1,6 +1,6 @@
-templateDirectory: ../template/default_project
-outDirectory: ../dest/project
-providerConfig:
-  id: yaml
-  dataPath: project-data.yml
-keys:
+appName: demo
+groupId: com.example
+artifactId: demo
+version: 1.0.0-SNAPSHOT
+basePackage: com.example.demo
+author: admin

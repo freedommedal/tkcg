@@ -34,4 +34,3 @@ target/
 *.iws
 
 dest/
-data/**/dest/

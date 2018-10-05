@@ -7,7 +7,7 @@
     <groupId>com.sgota.tools</groupId>
     <artifactId>tkcg</artifactId>
     <packaging>pom</packaging>
-    <version>1.6.0</version>
+    <version>2.0.0</version>
 
     <name>${project.groupId}:${project.artifactId}</name>
     <url>https://github.com/freedommedal/tkcg</url>
@@ -63,26 +63,6 @@
                 <artifactId>tkcg-core</artifactId>
                 <version>${project.version}</version>
             </dependency>
-            <dependency>
-                <groupId>com.sgota.tools</groupId>
-                <artifactId>tkcg-provider-core</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.sgota.tools</groupId>
-                <artifactId>tkcg-provider-yaml</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.sgota.tools</groupId>
-                <artifactId>tkcg-provider-jdbc</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.sgota.tools</groupId>
-                <artifactId>tkcg-provider-java</artifactId>
-                <version>${project.version}</version>
-            </dependency>
 
             <!-- log -->
             <dependency>
@@ -99,17 +79,12 @@
             <dependency>
                 <groupId>org.freemarker</groupId>
                 <artifactId>freemarker</artifactId>
-                <version>2.3.27-incubating</version>
+                <version>2.3.28</version>
             </dependency>
             <dependency>
                 <groupId>org.yaml</groupId>
                 <artifactId>snakeyaml</artifactId>
                 <version>1.16</version>
-            </dependency>
-            <dependency>
-                <groupId>com.google.code.gson</groupId>
-                <artifactId>gson</artifactId>
-                <version>2.6.2</version>
             </dependency>
             <!-- apache commons -->
             <dependency>
@@ -132,18 +107,6 @@
                 <groupId>mysql</groupId>
                 <artifactId>mysql-connector-java</artifactId>
                 <version>5.1.29</version>
-            </dependency>
-
-            <dependency>
-                <groupId>com.alibaba</groupId>
-                <artifactId>druid</artifactId>
-                <version>1.0.14</version>
-            </dependency>
-
-            <dependency>
-                <groupId>com.github.javaparser</groupId>
-                <artifactId>javaparser-core</artifactId>
-                <version>3.3.0</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
@@ -256,10 +219,7 @@
     </distributionManagement>
 
     <modules>
-        <module>core</module>
-        <module>provider-yaml</module>
-        <module>provider-jdbc</module>
-        <module>provider-java</module>
-        <module>cmd</module>
+        <module>tkcg-core</module>
+        <module>tkcg-cmd</module>
     </modules>
 </project>
