@@ -12,8 +12,6 @@
 ![](./image/quick_start/2.png)
 * 点击next按钮,输入项目位置,点击`Finsh`按钮进行创建项目
 ![](./image/quick_start/3.png)
-* 等待执行完成后,在项目中选择pom.xml文件,右键菜单,点击`Add as Maven Project`按钮,进行maven功能支持,至此项目创建完成  
-![](./image/quick_start/4.png)
 
 ## idea生成业务代码
 * 菜单栏选择`Tools`,点击`TKCG`按钮

@@ -12,4 +12,4 @@
 * 代码开源,不使用闭源组件
 
 ## 程序结构
-![](image/architecture.png)
+![](./image/architecture.png)
