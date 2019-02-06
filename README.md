@@ -7,7 +7,7 @@
 生成业务代码（比如Java程序常见的Model,DAO,DTO,Service等）
 
 # 项目相关地址
-项目文档 [https://freedommedal.github.io/tkcg-doc/)
+项目文档 [https://freedommedal.github.io/tkcg/)
 
 项目Git源码 [https://github.com/freedommedal/tkcg)
 
